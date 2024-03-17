@@ -1,12 +1,12 @@
 import React from 'react'
 
 //COMPONENTE DE PRESENTACION
-const ItemList = () => {
+const ItemList = ({productos}) => {
 
   return (
     <div>
       
-      <div>ItemList</div>
+      <div>Productos</div>
   
     </div>
 

@@ -3,7 +3,7 @@ import ItemList from './ItemList'
 
 //COMPONENTE CONTENEDOR
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
 
 
     const productos = [
@@ -14,7 +14,7 @@ const ItemListContainer = () => {
 
    return (
    <>
-    <div>ItemListContainer</div>
+    <div>{greeting}</div>
 
         <ItemList
             productos={productos}
